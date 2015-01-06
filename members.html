@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h1>hello world</h1>
+
+{% for member in  site.data.members %}
+  <p>{{ member.name }}</p>
+  <p>{{ member.major }}</p>
+{% endfor %}

@@ -8,6 +8,7 @@
 /rdoc/
 *.log
 /tmp
+/_site
 
 ## Environment normalisation:
 /.bundle/
